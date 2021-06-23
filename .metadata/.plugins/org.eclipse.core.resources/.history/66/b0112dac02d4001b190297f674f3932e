@@ -1,0 +1,19 @@
+package com.formacionbdi.springboot.app.item.models.service;
+
+import java.util.List;
+
+import com.formacionbdi.springboot.app.item.models.Item;
+
+public class ItemServiceFeign implements ItemService {
+
+	@Override
+	public List<Item> findAll() {
+		return null;
+	}
+
+	@Override
+	public Item findById(Long id, int cantidad) {
+		return null;
+	}
+
+}
