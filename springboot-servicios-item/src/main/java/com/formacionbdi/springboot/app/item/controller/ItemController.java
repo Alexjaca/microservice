@@ -19,7 +19,7 @@ public class ItemController {
 	@Qualifier ("serviceFeign")
 	private ItemService itemService;
 	
-	
+
 	@GetMapping("/listar")
 	public List<Item> listar(){
 		return itemService.findAll();
