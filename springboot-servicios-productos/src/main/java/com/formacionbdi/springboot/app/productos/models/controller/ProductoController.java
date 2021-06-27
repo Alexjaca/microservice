@@ -35,11 +35,19 @@ public class ProductoController {
 	}
 	
 	@GetMapping("/ver/{id}")
-	public Producto detalle(@PathVariable Long id) {
+	public Producto detalle(@PathVariable Long id){
 		Producto producto = productService.findById(id);
 		//producto.setPort(Integer.parseInt(env.getProperty("local.server.port"))); Usando Enviroment para enviar el puerto
 		producto.setPort(port);   // usando restemplate con @Value para enviar el puerto
+		
+		/*try {
+			Thread.sleep(2000L);  // durmiendo el proceso 2 segundos
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}*/
+
 		return producto;
+
 	}
 
 }
