@@ -6258,3 +6258,35 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2021-06-28 00:20:02,384 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alex\Documents\workspace - curso microservicios UDEMY\springboot-servicios-config-server\src\test\resources
 2021-06-28 00:35:56,387 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2021-06-28 16:33:48,160 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-28 16:53:31,942 [Worker-1: Launching springboot-servicios-config-server - SpringbootServiciosConfigServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-28 16:53:31,968 [Worker-1: Launching springboot-servicios-config-server - SpringbootServiciosConfigServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-28 16:53:31,993 [Worker-1: Launching springboot-servicios-config-server - SpringbootServiciosConfigServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-28 16:53:32,000 [Worker-1: Launching springboot-servicios-config-server - SpringbootServiciosConfigServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-28 16:53:32,000 [Worker-1: Launching springboot-servicios-config-server - SpringbootServiciosConfigServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alex\Documents\workspace - curso microservicios UDEMY\springboot-servicios-config-server\src\test\resources
+2021-06-28 16:54:09,294 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-28 16:54:09,295 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-28 16:54:09,297 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-28 16:54:09,371 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-28 16:54:09,378 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-28 16:54:09,379 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-28 16:54:09,380 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alex\Documents\workspace - curso microservicios UDEMY\springboot-servicios-eureka-server\src\test\resources
+2021-06-28 16:54:32,143 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-28 16:54:32,144 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-28 16:54:32,160 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-28 16:54:32,165 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-28 16:54:32,165 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alex\Documents\workspace - curso microservicios UDEMY\springboot-servicios-item\src\test\resources
+2021-06-28 16:54:37,803 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-28 16:54:37,803 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-28 16:54:37,805 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-28 16:54:37,824 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-28 16:54:37,870 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-28 16:54:37,870 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-28 16:54:37,871 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alex\Documents\workspace - curso microservicios UDEMY\springboot-servicios-productos\src\test\resources
+2021-06-28 16:54:42,373 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-28 16:54:42,376 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-28 16:54:42,406 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-28 16:54:42,410 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-28 16:54:42,411 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alex\Documents\workspace - curso microservicios UDEMY\springboot-servicios-zuul-server\src\test\resources
+2021-06-28 19:31:11,816 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-28 19:31:11,830 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-28 19:31:11,833 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
