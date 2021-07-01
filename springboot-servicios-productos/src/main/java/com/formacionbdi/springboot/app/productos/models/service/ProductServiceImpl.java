@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.formacionbdi.springboot.app.productos.models.dao.ProductoDao;
-import com.formacionbdi.springboot.app.productos.models.entity.Producto;
+import com.formacionbdi.springboot.app.commons.models.entity.Producto;
 
 @Service
 public class ProductServiceImpl implements IProductService{
@@ -25,6 +25,18 @@ public class ProductServiceImpl implements IProductService{
 	@Transactional(readOnly = true)
 	public Producto findById(Long id) {
 		return productoDao.findById(id).orElse(null);
+	}
+
+	@Override
+	@Transactional
+	public Producto save(Producto producto) {
+		return productoDao.save(producto);
+	}
+
+	@Override
+	@Transactional
+	public void deleteById(Long id) {
+		productoDao.deleteById(id);	
 	}
 
 }

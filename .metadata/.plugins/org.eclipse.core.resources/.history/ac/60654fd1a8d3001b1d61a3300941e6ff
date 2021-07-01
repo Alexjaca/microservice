@@ -1,8 +1,0 @@
-package com.formacionbdi.springboot.app.item.controller;
-
-import org.springframework.web.bind.annotation.RestController;
-
-@RestController
-public class ItemController {
-
-}
