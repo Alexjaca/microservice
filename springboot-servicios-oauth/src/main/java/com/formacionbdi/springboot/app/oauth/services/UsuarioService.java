@@ -19,7 +19,7 @@ import com.formacionbdi.springboot.app.oauth.clients.UsuarioFeingClient;
 
 
 @Service
-public class UsuarioService implements UserDetailsService{
+public class UsuarioService implements IUsuarioService, UserDetailsService{
 	
 	private Logger log = LoggerFactory.getLogger(UsuarioService.class);
 	
@@ -44,6 +44,12 @@ public class UsuarioService implements UserDetailsService{
 		
 		log.info("Usuario autenticado : " + username);
 		return new User(usuario.getUsername(), usuario.getPassword(), usuario.getEnabled(), true, true, true, autorithes);
+	}
+
+	
+	@Override
+	public Usuario findByUsername(String username) {
+		return client.findByUsername(username);
 	}
 
 }

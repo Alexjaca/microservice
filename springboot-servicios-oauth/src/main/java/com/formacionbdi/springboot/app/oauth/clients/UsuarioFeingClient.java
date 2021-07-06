@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.formacionbdi.springboot.app.commons.usuarios.models.entity.Usuario;
 
-@FeignClient(name = "servicio-usuarios")
+@FeignClient(name ="servicio-usuarios")
 public interface UsuarioFeingClient {
 
 @GetMapping("/usuarios/search/buscar-username")
